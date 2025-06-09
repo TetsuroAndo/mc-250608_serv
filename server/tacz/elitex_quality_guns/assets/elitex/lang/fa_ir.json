@@ -1,0 +1,41 @@
+{
+  "pack.elitex.name": "Elite X سلاح‌های با کیفیت بالا",
+  "pack.elitex.desc": "پیشرفته‌ترین و بهترین سلاح‌هایی که هیچ جای دیگری پیدا نخواهید کرد",
+
+  "elitex.gun.colt_m1911x1.name": "کولت M1911A1",
+  "elitex.gun.srz_2011.name": "SRZ 2011 مدرن‌شده",
+  "elitex.gun.jrx.name": "JRX Viper 2011",
+  "elitex.gun.five_seven.name": "FS Five Seven",
+
+  "elitex.gun.ak47x.name": "AK47",
+  "elitex.gun.famas_f1.name": "Famas F1 فرانسوی",
+  "elitex.gun.m4_sopmod.name": "M4 Sop Mod بلوک II",
+  "elitex.gun.mcs_spear.name": "Sig MCX Spear",
+
+  "elitex.gun.ray_gun_mk2.name": "Ray Gun Mark II",
+  "elitex.gun.wonder_waffle.name": "Wonder Waffe",
+  "elitex.gun.mustang_and_sally.name": "Mustang و Sally",
+
+  "elitex.gun.benelli_super.name": "Benelli Super Nova",
+  "elitex.gun.kar98k.name": "Karabiner 98k",
+
+  "elitex.ammo.sig_fury_ammo.name": ".227 Sig Fury",
+  "elitex.ammo.waffe_ammo.name": "مهمات Wonder Waffe",
+  "elitex.ammo.ray_gun_mk2_ammo.name": "مهمات Ray Gun MkII",
+  "elitex.ammo.kar98k_ammo.name": "مهمات Kar98k 7.92×57mm Mauser",
+  "elitex.ammo.five_seven_ammo.name": "مهمات FS Five Seven",
+
+  "elitex.gun.ak47x.desc": "از اتحاد جماهیر شوروی برای اختراع AK نمادین تشکر کنید",
+  "elitex.gun.mcs_spear.desc": "هنگامی که کیفیت بالا بارگذاری می‌شود، به یاد داشته باشید که کامپیوتر شما ممکن است داغ شود",
+  "elitex.gun.m4_sopmod.desc": "بهترین، فوق‌العاده قابل تنظیم، از مهمات 5.56 استفاده می‌کند",
+  "elitex.gun.famas_f1.desc": "AHHHGH، فرانسه!!11، معروف به نرخ شلیک سریعش",
+  "elitex.gun.colt_m1911x1.desc": "هنوز یکی از نمادین‌ترین تفنگ‌هاست، از .45 ACP استفاده می‌کند",
+  "elitex.gun.benelli_super.desc": "سازنده ایتالیایی، تفنگ ساچمه‌ای نیمه‌اتوماتیک بنلی",
+  "elitex.gun.ray_gun_mk2.desc": "چیزی شگفت‌انگیز از Cod Zombies، هیچ وقت نمی‌دانی چه چیزی پیدا می‌کنی",
+  "elitex.gun.mustang_and_sally.desc": "در واقع دو M1911 که آسیب زیادی وارد می‌کنند",
+  "elitex.gun.wonder_waffle.desc": "می‌خواهید برق بگیرید؟ Boom boom؟ حتما",
+  "elitex.gun.srz_2011.desc": "یک تفنگ 2011 مدرن‌شده، نه خیلی گران",
+  "elitex.gun.jrx.desc": "به JRX Industries خوش آمدید، این گران‌ترین تفنگ است",
+  "elitex.gun.kar98k.desc": "نمادین‌ترین تفنگ تاریخ مدرن",
+  "elitex.gun.five_seven.desc": "گاهی اوقات حتی یک تفنگ سبک و بدون چکش قابل اعتماد است"
+}
