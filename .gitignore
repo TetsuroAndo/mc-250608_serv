@@ -1,0 +1,6 @@
+client
+.claude/
+.vscode/
+.DS_Store
+
+server/tacz_backup/

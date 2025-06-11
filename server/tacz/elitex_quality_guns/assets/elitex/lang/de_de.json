@@ -1,0 +1,41 @@
+{
+  "pack.elitex.name": "Elite X Hochwertige Waffen",
+  "pack.elitex.desc": "Die fortschrittlichsten und besten Waffen, die du nirgendwo anders finden wirst",
+
+  "elitex.gun.colt_m1911x1.name": "Colt M1911A1",
+  "elitex.gun.srz_2011.name": "SRZ 2011 Modernisiert",
+  "elitex.gun.jrx.name": "JRX Viper 2011",
+  "elitex.gun.five_seven.name": "FS Five Seven",
+
+  "elitex.gun.ak47x.name": "AK47",
+  "elitex.gun.famas_f1.name": "Französisches Famas F1",
+  "elitex.gun.m4_sopmod.name": "M4 Sop Mod Block II",
+  "elitex.gun.mcs_spear.name": "Sig MCX Spear",
+
+  "elitex.gun.ray_gun_mk2.name": "Ray Gun Mark II",
+  "elitex.gun.wonder_waffle.name": "Wonder Waffe",
+  "elitex.gun.mustang_and_sally.name": "Mustang und Sally",
+
+  "elitex.gun.benelli_super.name": "Benelli Super Nova",
+  "elitex.gun.kar98k.name": "Karabiner 98k",
+
+  "elitex.ammo.sig_fury_ammo.name": ".227 Sig Fury",
+  "elitex.ammo.waffe_ammo.name": "Wonder Waffe Munition",
+  "elitex.ammo.ray_gun_mk2_ammo.name": "Ray Gun MkII Munition",
+  "elitex.ammo.kar98k_ammo.name": "Kar98k 7.92×57mm Mauser Munition",
+  "elitex.ammo.five_seven_ammo.name": "FS Five Seven Munition",
+
+  "elitex.gun.ak47x.desc": "Dank der Sowjetunion für die Erfindung des legendären AK",
+  "elitex.gun.mcs_spear.desc": "Wenn detaillierte Qualität geladen wird, denk daran, dass dein PC überhitzen könnte",
+  "elitex.gun.m4_sopmod.desc": "Der beste, super anpassbar, nutzt 5.56 Munition",
+  "elitex.gun.famas_f1.desc": "AHHHGH, Frankreich!!11, berühmt für seine hohe Feuerrate",
+  "elitex.gun.colt_m1911x1.desc": "Immer noch eine der ikonischsten Pistolen, verwendet .45 ACP",
+  "elitex.gun.benelli_super.desc": "Italienischer Hersteller, Benelli Halbautomatische Schrotflinte",
+  "elitex.gun.ray_gun_mk2.desc": "Etwas Unglaubliches aus Cod Zombies, du wirst nie wissen, was du finden wirst",
+  "elitex.gun.mustang_and_sally.desc": "Im Grunde zwei M1911, die viel Schaden anrichten",
+  "elitex.gun.wonder_waffle.desc": "Willst du einen Stromschlag? Boom boom? Sicher",
+  "elitex.gun.srz_2011.desc": "Modernisierte 2011 Pistole, nicht teuer",
+  "elitex.gun.jrx.desc": "Willkommen bei JRX Industries, das ist die teuerste Pistole",
+  "elitex.gun.kar98k.desc": "Das ikonischste Gewehr in der modernen Geschichte",
+  "elitex.gun.five_seven.desc": "Manchmal kann sogar eine leichte, hammerlose Pistole zuverlässig sein"
+}

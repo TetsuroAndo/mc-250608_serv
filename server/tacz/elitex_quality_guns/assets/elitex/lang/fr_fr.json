@@ -1,0 +1,41 @@
+{
+  "pack.elitex.name": "Elite X Armes de Haute Qualité",
+  "pack.elitex.desc": "Les armes les plus avancées et les meilleures que vous ne trouverez nulle part ailleurs",
+
+  "elitex.gun.colt_m1911x1.name": "Colt M1911A1",
+  "elitex.gun.srz_2011.name": "SRZ 2011 Modernisé",
+  "elitex.gun.jrx.name": "JRX Viper 2011",
+  "elitex.gun.five_seven.name": "FS Five Seven",
+
+  "elitex.gun.ak47x.name": "AK47",
+  "elitex.gun.famas_f1.name": "Famas F1 Français",
+  "elitex.gun.m4_sopmod.name": "M4 Sop Mod Bloc II",
+  "elitex.gun.mcs_spear.name": "Sig MCX Spear",
+
+  "elitex.gun.ray_gun_mk2.name": "Ray Gun Mark II",
+  "elitex.gun.wonder_waffle.name": "Wonder Waffe",
+  "elitex.gun.mustang_and_sally.name": "Mustang et Sally",
+
+  "elitex.gun.benelli_super.name": "Benelli Super Nova",
+  "elitex.gun.kar98k.name": "Karabiner 98k",
+
+  "elitex.ammo.sig_fury_ammo.name": ".227 Sig Fury",
+  "elitex.ammo.waffe_ammo.name": "Munitions Wonder Waffe",
+  "elitex.ammo.ray_gun_mk2_ammo.name": "Munitions Ray Gun MkII",
+  "elitex.ammo.kar98k_ammo.name": "Munitions Kar98k 7.92×57mm Mauser",
+  "elitex.ammo.five_seven_ammo.name": "Munitions FS Five Seven",
+
+  "elitex.gun.ak47x.desc": "Remerciez la Russie soviétique pour avoir inventé l'AK emblématique",
+  "elitex.gun.mcs_spear.desc": "Lorsque des détails de haute qualité sont chargés, souvenez-vous que votre PC pourrait surchauffer",
+  "elitex.gun.m4_sopmod.desc": "Le meilleur, super personnalisable, utilise des munitions 5.56",
+  "elitex.gun.famas_f1.desc": "AHHHGH, la France!!11, célèbre pour sa cadence de tir rapide",
+  "elitex.gun.colt_m1911x1.desc": "Toujours l'un des pistolets les plus emblématiques, utilise du .45 ACP",
+  "elitex.gun.benelli_super.desc": "Fabricant italien, fusil semi-automatique Benelli",
+  "elitex.gun.ray_gun_mk2.desc": "Quelque chose d'incroyable de Cod Zombies, vous ne saurez jamais ce que vous pourriez découvrir",
+  "elitex.gun.mustang_and_sally.desc": "En gros, deux M1911 causant des dégâts importants",
+  "elitex.gun.wonder_waffle.desc": "Vous voulez être électrocuté ? Boom boom ? Bien sûr",
+  "elitex.gun.srz_2011.desc": "Pistolet modernisé de 2011, pas si cher",
+  "elitex.gun.jrx.desc": "Bienvenue chez JRX Industries, voici le pistolet le plus cher",
+  "elitex.gun.kar98k.desc": "Le fusil le plus emblématique de l'histoire moderne",
+  "elitex.gun.five_seven.desc": "Parfois, un pistolet léger sans marteau peut être fiable"
+}
