@@ -89,8 +89,9 @@ def backup_world() -> None:
             print("[backup] git repo not found → git init")
             _run(["git", "init", str(GIT_REPO_PATH)])
 
-        # rsync substitute: sync tmp_dir → repo/world_data/world (同じ階層に置く例)
-        target_dir = GIT_REPO_PATH / "world_data" / "world_backup"
+        # Git リポジトリ内の world_data ディレクトリにタイムスタンプ付きでバックアップ
+        target_base = GIT_REPO_PATH / "world_data"
+        target_dir = target_base / f"world_backup_{timestamp}"
         if target_dir.exists():
             shutil.rmtree(target_dir)
         shutil.move(tmp_dir, target_dir)
@@ -108,16 +109,15 @@ def backup_world() -> None:
         _run(["git", "commit", "-m", msg], cwd=GIT_REPO_PATH)
         print(f"[git] committed: '{msg}'")
 
-        # リモート (origin main) にプッシュ
-        print("[git] pushing to origin/main …")
-        _run(["git", "push", "origin", "main"], cwd=GIT_REPO_PATH)
+        # リモートへプッシュ（現在のブランチ設定に従う）
+        print("[git] pushing to remote…")
+        _run(["git", "push"], cwd=GIT_REPO_PATH)
         print("[git] push complete")
 
-        # バックアップフォルダを削除
-        if target_dir.exists():
-            print(f"[cleanup] removing backup dir {target_dir} …")
-            shutil.rmtree(target_dir)
-            print("[cleanup] done")
+        # クリーンアップ：バックアップフォルダを削除
+        print(f"[cleanup] removing backup dir {target_dir}…")
+        shutil.rmtree(target_dir)
+        print("[cleanup] done")
     finally:
         if tmp_dir.exists():
             shutil.rmtree(tmp_dir, ignore_errors=True)
