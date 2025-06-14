@@ -1,0 +1,273 @@
+{
+  "iceandfire:iceandfire/root": {
+    "criteria": {
+      "tick": "2025-06-11 20:26:27 +0900"
+    },
+    "done": true
+  },
+  "idas:idas_root": {
+    "criteria": {
+      "always": "2025-06-11 20:26:27 +0900"
+    },
+    "done": true
+  },
+  "weaponmaster:parts/root": {
+    "criteria": {
+      "crafting_table": "2025-06-11 20:26:27 +0900"
+    },
+    "done": true
+  },
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2025-06-11 20:26:27 +0900"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2025-06-11 20:26:27 +0900"
+    },
+    "done": true
+  },
+  "l2backpack:backpacks/root": {
+    "criteria": {
+      "0": "2025-06-11 20:26:27 +0900"
+    },
+    "done": true
+  },
+  "majruszsdifficulty:game_stage_normal": {
+    "criteria": {
+      "is_triggered": "2025-06-11 20:26:27 +0900"
+    },
+    "done": true
+  },
+  "grimoireofgaia:main/root": {
+    "criteria": {
+      "join": "2025-06-11 20:26:27 +0900"
+    },
+    "done": true
+  },
+  "cataclysm:root": {
+    "criteria": {
+      "custom_test_name": "2025-06-11 20:26:27 +0900"
+    },
+    "done": true
+  },
+  "irons_spellbooks:grant_patchouli": {
+    "criteria": {
+      "tick": "2025-06-11 20:26:27 +0900"
+    },
+    "done": true
+  },
+  "integrated_villages:integrated_villages_root": {
+    "criteria": {
+      "always": "2025-06-11 20:26:27 +0900"
+    },
+    "done": true
+  },
+  "l2backpack:detection": {
+    "criteria": {
+      "locate": "2025-06-11 20:26:28 +0900"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:snowy_slopes": "2025-06-11 21:02:51 +0900",
+      "minecraft:river": "2025-06-14 01:57:30 +0900",
+      "minecraft:stony_shore": "2025-06-11 20:59:35 +0900",
+      "minecraft:cold_ocean": "2025-06-11 23:21:17 +0900",
+      "minecraft:forest": "2025-06-11 21:00:44 +0900",
+      "minecraft:plains": "2025-06-11 20:26:28 +0900"
+    },
+    "done": false
+  },
+  "aquamirae:adventure/root": {
+    "criteria": {
+      "crafting_table": "2025-06-11 21:03:32 +0900"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2025-06-11 21:03:32 +0900"
+    },
+    "done": true
+  },
+  "dungeonnowloading:story/root": {
+    "criteria": {
+      "obtain_crafting_table": "2025-06-11 21:03:32 +0900"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2025-06-11 21:03:48 +0900"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2025-06-11 21:04:12 +0900"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2025-06-11 22:07:17 +0900"
+    },
+    "done": true
+  },
+  "majruszsdifficulty:bleeding": {
+    "criteria": {
+      "bleeding_applied": "2025-06-11 22:08:32 +0900"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:zombie": "2025-06-11 22:52:43 +0900"
+    },
+    "done": false
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:zombie": "2025-06-11 22:52:43 +0900"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2025-06-11 23:02:45 +0900"
+    },
+    "done": true
+  },
+  "grimoireofgaia:main/werecat": {
+    "criteria": {
+      "kill": "2025-06-11 23:20:38 +0900"
+    },
+    "done": true
+  },
+  "phayriosis:the_bronze_age": {
+    "criteria": {
+      "the_bronze_age_0": "2025-06-11 23:27:01 +0900"
+    },
+    "done": true
+  },
+  "create:copper": {
+    "criteria": {
+      "0": "2025-06-11 23:27:01 +0900"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "bread": "2025-06-11 23:30:45 +0900",
+      "cooked_salmon": "2025-06-14 00:35:51 +0900"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2025-06-11 23:30:45 +0900"
+    },
+    "done": true
+  },
+  "champions:kill_a_champion": {
+    "criteria": {
+      "kill_a_champion": "2025-06-11 23:31:06 +0900"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2025-06-11 23:31:11 +0900"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/seagull_steal": {
+    "criteria": {
+      "ex": "2025-06-11 23:32:37 +0900"
+    },
+    "done": true
+  },
+  "integrated_villages:airship_village": {
+    "criteria": {
+      "in_airship_village": "2025-06-11 23:37:46 +0900"
+    },
+    "done": true
+  },
+  "phayriosis:phayriosis_parasite_infection": {
+    "criteria": {
+      "phayriosis_parasite_infection_0": "2025-06-11 23:51:11 +0900"
+    },
+    "done": true
+  },
+  "divinerpg:overworld/patchouli": {
+    "criteria": {
+      "tick": "2025-06-13 15:56:06 +0900"
+    },
+    "done": true
+  },
+  "l2backpack:backpacks/patchouli": {
+    "criteria": {
+      "0": "2025-06-13 15:56:09 +0900"
+    },
+    "done": true
+  },
+  "divinerpg:overworld/root": {
+    "criteria": {
+      "divinerpg": "2025-06-13 15:56:10 +0900"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2025-06-14 01:02:11 +0900"
+    },
+    "done": true
+  },
+  "farmersdelight:main/plant_all_crops": {
+    "criteria": {
+      "sugar_cane": "2025-06-14 02:03:31 +0900"
+    },
+    "done": false
+  },
+  "l2hostility:hostility/patchouli": {
+    "criteria": {
+      "0": "2025-06-14 02:15:49 +0900"
+    },
+    "done": true
+  },
+  "farmersdelight:main/get_fd_seed": {
+    "criteria": {
+      "onion": "2025-06-14 02:27:25 +0900"
+    },
+    "done": true
+  },
+  "majruszsdifficulty:game_stage_expert": {
+    "criteria": {
+      "is_triggered": "2025-06-14 02:31:25 +0900"
+    },
+    "done": true
+  },
+  "l2hostility:hostility/root": {
+    "criteria": {
+      "0": "2025-06-14 02:15:49 +0900"
+    },
+    "done": true
+  },
+  "twilightforest:root": {
+    "criteria": {
+      "make_portal": "2025-06-14 02:31:12 +0900"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2025-06-14 02:28:20 +0900"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

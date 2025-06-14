@@ -1,0 +1,44 @@
+{
+   "pack.elitex.name": "اسلحة اليت اكس",
+   "pack.elitex.desc": "افضل مود مسدسات واسلحة متقدم لن تجده في اي مكان اخر",
+
+  "elitex.gun.colt_m1911x1.name": "كولت M1911A1",
+  "elitex.gun.srz_2011.name": "SRZ 2011 الحديثة",
+  "elitex.gun.jrx.name": "JRX فايبر 2011",
+  "elitex.gun.five_seven.name": "FS Five Seven",
+
+  "elitex.gun.ak47x.name": "AK47",
+  "elitex.gun.famas_f1.name": "فاماس F1 الفرنسية",
+  "elitex.gun.m4_sopmod.name": "M4 Sop Mod بلوك II",
+  "elitex.gun.mcs_spear.name": "سيغ MCX Spear",
+
+  "elitex.gun.ray_gun_mk2.name": "راي غن مارك II",
+  "elitex.gun.wonder_waffle.name": "وندر وافي",
+  "elitex.gun.mustang_and_sally.name": "موستانج وسالي",
+
+  "elitex.gun.benelli_super.name": "بنيللي سوبر نوفا",
+  "elitex.gun.kar98k.name": "كارابينر 98k",
+
+  "elitex.ammo.sig_fury_ammo.name": ".227 سيغ فيوري",
+  "elitex.ammo.waffe_ammo.name": "ذخيرة وندر وافي",
+  "elitex.ammo.ray_gun_mk2_ammo.name": "ذخيرة راي غن MkII",
+  "elitex.ammo.kar98k_ammo.name": "ذخيرة كار98k 7.92×57 مم ماوزر",
+  "elitex.ammo.five_seven_ammo.name": "ذخيرة FS Five Seven",
+
+  "elitex.gun.ak47x.desc": "اشكر روسيا السوفيتية على اختراع AK الأيقوني",
+  "elitex.gun.mcs_spear.desc": "عند تحميل التفاصيل عالية الجودة، تذكر أن حاسوبك قد يحترق",
+  "elitex.gun.m4_sopmod.desc": "أفضل، قابل للتخصيص بشكل رائع، يستخدم ذخيرة 5.56",
+  "elitex.gun.famas_f1.desc": "آآآه، فرنسا!!11، مشهور بمعدل إطلاق النار السريع",
+  "elitex.gun.colt_m1911x1.desc": "ما زال أحد أكثر المسدسات الأيقونية، يستخدم .45 ACP",
+  "elitex.gun.benelli_super.desc": "شركة إيطالية، بندقية نصف أوتوماتيكية بنيللي",
+  "elitex.gun.ray_gun_mk2.desc": "شيء مذهل من Cod Zombies، لن تعرف أبدًا ما الذي ستجده",
+  "elitex.gun.mustang_and_sally.desc": "أساسًا M1911 مزدوجة تسبب أضرارًا كبيرة",
+  "elitex.gun.wonder_waffle.desc": "هل تريد صدمة كهربائية؟ بوم بوم؟ بالتأكيد",
+  "elitex.gun.srz_2011.desc": "مسدس حديث لعام 2011، ليس مكلفًا كثيرًا",
+  "elitex.gun.jrx.desc": "مرحبًا بكم في JRX Industries، هذا هو أغلى مسدس",
+  "elitex.gun.kar98k.desc": "أكثر البنادق الأيقونية في التاريخ الحديث",
+  "elitex.gun.five_seven.desc": "في بعض الأحيان، يمكن أن يكون المسدس الخفيف بدون مطرقة موثوقًا"
+
+
+
+}

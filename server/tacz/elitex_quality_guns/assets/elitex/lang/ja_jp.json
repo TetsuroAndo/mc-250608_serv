@@ -1,0 +1,43 @@
+{
+   "pack.elitex.name": "Elite X 高品質な武器",
+   "pack.elitex.desc": "他では絶対に見つからない、最も進化した最高の武器",
+
+   "elitex.gun.colt_m1911x1.name": "コルト M1911A1",
+   "elitex.gun.srz_2011.name": "SRZ モダン化 2011",
+   "elitex.gun.jrx.name": "JRX バイパー 2011",
+   "elitex.gun.five_seven.name": "FS ファイブセブン",
+
+   "elitex.gun.ak47x.name": "AK47",
+   "elitex.gun.famas_f1.name": "フランス製 ファマス F1",
+   "elitex.gun.m4_sopmod.name": "M4 Sop Mod ブロック II",
+   "elitex.gun.mcs_spear.name": "シグ MCX スピア",
+
+   "elitex.gun.ray_gun_mk2.name": "レイガン マーク II",
+   "elitex.gun.wonder_waffle.name": "ワンダーワッフル",
+   "elitex.gun.mustang_and_sally.name": "ムスタングとサリー",
+
+   "elitex.gun.benelli_super.name": "ベネリ スーパーノヴァ",
+   "elitex.gun.kar98k.name": "カラビナー 98k",
+
+   "elitex.ammo.sig_fury_ammo.name": ".227 シグ フューリー",
+   "elitex.ammo.waffe_ammo.name": "ワンダーワッフル弾薬",
+   "elitex.ammo.ray_gun_mk2_ammo.name": "レイガン MkII 弾薬",
+   "elitex.ammo.kar98k_ammo.name": "Kar98k用 7.92×57mm マウザー弾",
+   "elitex.ammo.five_seven_ammo.name": "FS ファイブセブン 弾薬",
+
+   "elitex.gun.ak47x.desc": "象徴的なAKを発明したソビエトロシアに感謝",
+   "elitex.gun.mcs_spear.desc": "高品質なディテールをロード中、PCが加熱することを覚えておいてください",
+   "elitex.gun.m4_sopmod.desc": "最高で、非常にカスタマイズ可能、5.56弾を使用",
+   "elitex.gun.famas_f1.desc": "フランスだ！速い発射速度で有名です",
+   "elitex.gun.colt_m1911x1.desc": "今もなお象徴的な拳銃の一つ、.45 ACP弾を使用",
+   "elitex.gun.benelli_super.desc": "イタリアの製造業者、ベネリ製セミオートショットガン",
+   "elitex.gun.ray_gun_mk2.desc": "Cod Zombiesからの驚異的な武器、何が見つかるか分かりません",
+   "elitex.gun.mustang_and_sally.desc": "基本的に二丁のM1911で大ダメージを与えます",
+   "elitex.gun.wonder_waffle.desc": "感電したいですか？ボンボン！もちろん可能です",
+   "elitex.gun.srz_2011.desc": "2011年のモダンな拳銃、それほど高くありません",
+   "elitex.gun.jrx.desc": "JRX Industriesへようこそ、これが最も高価な拳銃です",
+   "elitex.gun.kar98k.desc": "現代史上最も象徴的なライフル",
+   "elitex.gun.five_seven.desc": "軽量でハンマーレスの拳銃も信頼性が高い場合があります"
+
+
+}

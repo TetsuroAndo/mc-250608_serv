@@ -1,0 +1,43 @@
+{
+  "pack.elitex.name": "Elite X 高品质武器",
+  "pack.elitex.desc": "最先进、最好的武器，你不会在其他地方找到",
+
+  "elitex.gun.colt_m1911x1.name": "柯尔特 M1911A1",
+  "elitex.gun.srz_2011.name": "SRZ 2011 现代化版",
+  "elitex.gun.jrx.name": "JRX 毒蛇 2011",
+  "elitex.gun.five_seven.name": "FS Five Seven",
+
+  "elitex.gun.ak47x.name": "AK47",
+  "elitex.gun.famas_f1.name": "法国 Famas F1",
+  "elitex.gun.m4_sopmod.name": "M4 Sop Mod 二代",
+  "elitex.gun.mcs_spear.name": "西格 MCX Spear",
+
+  "elitex.gun.ray_gun_mk2.name": "射线枪 Mark II",
+  "elitex.gun.wonder_waffle.name": "神奇华夫枪",
+  "elitex.gun.mustang_and_sally.name": "野马与莎莉",
+
+  "elitex.gun.benelli_super.name": "贝内利超级新星",
+  "elitex.gun.kar98k.name": "卡宾枪 98k",
+
+  "elitex.ammo.sig_fury_ammo.name": ".227 西格怒火",
+  "elitex.ammo.waffe_ammo.name": "神奇华夫枪弹药",
+  "elitex.ammo.ray_gun_mk2_ammo.name": "射线枪 MkII 弹药",
+  "elitex.ammo.kar98k_ammo.name": "卡98k 7.92×57mm 毛瑟弹药",
+  "elitex.ammo.five_seven_ammo.name": "FS Five Seven 弹药",
+
+  "elitex.gun.ak47x.desc": "感谢苏联发明了标志性的 AK 系列武器",
+  "elitex.gun.mcs_spear.desc": "加载高品质细节时，小心你的电脑可能过热",
+  "elitex.gun.m4_sopmod.desc": "最佳、超级可定制，使用 5.56 弹药",
+  "elitex.gun.famas_f1.desc": "啊啊啊，法国！以高射速而闻名",
+  "elitex.gun.colt_m1911x1.desc": "仍然是最具标志性的手枪之一，使用 .45 ACP 子弹",
+  "elitex.gun.benelli_super.desc": "意大利制造商，贝内利半自动霰弹枪",
+  "elitex.gun.ray_gun_mk2.desc": "来自 Cod Zombies 的惊人武器，你永远不会知道会发现什么",
+  "elitex.gun.mustang_and_sally.desc": "本质上是两把 M1911，造成巨大伤害",
+  "elitex.gun.wonder_waffle.desc": "想要被电击？砰砰！没问题",
+  "elitex.gun.srz_2011.desc": "2011 年现代化手枪，不算太贵",
+  "elitex.gun.jrx.desc": "欢迎来到 JRX 工业，这是最昂贵的手枪",
+  "elitex.gun.kar98k.desc": "现代历史上最具标志性的步枪",
+  "elitex.gun.five_seven.desc": "有时，一把轻便无击锤的手枪也能非常可靠"
+
+
+}

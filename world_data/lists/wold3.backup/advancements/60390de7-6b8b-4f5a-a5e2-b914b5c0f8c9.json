@@ -1,0 +1,224 @@
+{
+  "iceandfire:iceandfire/root": {
+    "criteria": {
+      "tick": "2025-06-13 16:15:58 +0900"
+    },
+    "done": true
+  },
+  "l2backpack:detection": {
+    "criteria": {
+      "locate": "2025-06-13 16:15:58 +0900"
+    },
+    "done": true
+  },
+  "idas:idas_root": {
+    "criteria": {
+      "always": "2025-06-13 16:15:58 +0900"
+    },
+    "done": true
+  },
+  "weaponmaster:parts/root": {
+    "criteria": {
+      "crafting_table": "2025-06-13 16:15:58 +0900"
+    },
+    "done": true
+  },
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2025-06-13 16:15:58 +0900"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2025-06-13 16:15:58 +0900"
+    },
+    "done": true
+  },
+  "l2backpack:backpacks/root": {
+    "criteria": {
+      "0": "2025-06-13 16:15:58 +0900"
+    },
+    "done": true
+  },
+  "majruszsdifficulty:game_stage_normal": {
+    "criteria": {
+      "is_triggered": "2025-06-13 16:15:58 +0900"
+    },
+    "done": true
+  },
+  "l2backpack:backpacks/patchouli": {
+    "criteria": {
+      "0": "2025-06-13 16:15:58 +0900"
+    },
+    "done": true
+  },
+  "divinerpg:overworld/patchouli": {
+    "criteria": {
+      "tick": "2025-06-13 16:15:58 +0900"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:snowy_slopes": "2025-06-13 16:16:25 +0900",
+      "minecraft:stony_shore": "2025-06-13 16:16:43 +0900",
+      "minecraft:cold_ocean": "2025-06-14 00:54:56 +0900",
+      "minecraft:forest": "2025-06-13 16:17:39 +0900",
+      "minecraft:deep_dark": "2025-06-14 02:03:06 +0900",
+      "minecraft:plains": "2025-06-13 16:15:58 +0900"
+    },
+    "done": false
+  },
+  "grimoireofgaia:main/root": {
+    "criteria": {
+      "join": "2025-06-13 16:15:58 +0900"
+    },
+    "done": true
+  },
+  "cataclysm:root": {
+    "criteria": {
+      "custom_test_name": "2025-06-13 16:15:58 +0900"
+    },
+    "done": true
+  },
+  "irons_spellbooks:grant_patchouli": {
+    "criteria": {
+      "tick": "2025-06-13 16:15:58 +0900"
+    },
+    "done": true
+  },
+  "divinerpg:overworld/root": {
+    "criteria": {
+      "divinerpg": "2025-06-13 16:15:58 +0900"
+    },
+    "done": true
+  },
+  "integrated_villages:integrated_villages_root": {
+    "criteria": {
+      "always": "2025-06-13 16:15:58 +0900"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2025-06-13 16:17:18 +0900"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2025-06-13 16:18:07 +0900"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2025-06-13 16:19:54 +0900"
+    },
+    "done": true
+  },
+  "aquamirae:adventure/root": {
+    "criteria": {
+      "crafting_table": "2025-06-13 16:22:01 +0900"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2025-06-13 16:22:01 +0900"
+    },
+    "done": true
+  },
+  "dungeonnowloading:story/root": {
+    "criteria": {
+      "obtain_crafting_table": "2025-06-13 16:22:01 +0900"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/seagull_steal": {
+    "criteria": {
+      "ex": "2025-06-13 16:24:47 +0900"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2025-06-13 16:25:42 +0900"
+    },
+    "done": true
+  },
+  "majruszsdifficulty:bleeding": {
+    "criteria": {
+      "bleeding_applied": "2025-06-13 16:43:49 +0900"
+    },
+    "done": true
+  },
+  "l2hostility:hostility/patchouli": {
+    "criteria": {
+      "0": "2025-06-14 00:35:36 +0900"
+    },
+    "done": true
+  },
+  "phayriosis:phayriosis_parasite_infection": {
+    "criteria": {
+      "phayriosis_parasite_infection_0": "2025-06-14 00:35:36 +0900"
+    },
+    "done": true
+  },
+  "l2hostility:hostility/root": {
+    "criteria": {
+      "0": "2025-06-14 00:35:36 +0900"
+    },
+    "done": true
+  },
+  "phayriosis:bulbous": {
+    "criteria": {
+      "bulbous_0": "2025-06-14 00:43:48 +0900"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2025-06-14 01:04:01 +0900"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2025-06-14 01:04:41 +0900"
+    },
+    "done": true
+  },
+  "twilightforest:twilight_hunter": {
+    "criteria": {
+      "boar": "2025-06-14 02:31:52 +0900"
+    },
+    "done": true
+  },
+  "majruszsdifficulty:bleeding_inflicted": {
+    "criteria": {
+      "bleeding_applied": "2025-06-14 02:31:34 +0900"
+    },
+    "done": true
+  },
+  "majruszsdifficulty:game_stage_expert": {
+    "criteria": {
+      "is_triggered": "2025-06-14 02:31:25 +0900"
+    },
+    "done": true
+  },
+  "twilightforest:root": {
+    "criteria": {
+      "in_tf": "2025-06-14 02:31:26 +0900"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2025-06-14 02:03:12 +0900"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

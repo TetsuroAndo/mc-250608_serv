@@ -1,0 +1,44 @@
+{
+   "pack.elitex.name": "Elite X 고품질 무기",
+   "pack.elitex.desc": "어디에서도 찾을 수 없는 가장 진보적이고 최고의 무기",
+
+   "elitex.gun.colt_m1911x1.name": "콜트 M1911A1",
+   "elitex.gun.srz_2011.name": "SRZ 2011 현대화",
+   "elitex.gun.jrx.name": "JRX 바이퍼 2011",
+   "elitex.gun.five_seven.name": "FS Five Seven",
+
+   "elitex.gun.ak47x.name": "AK47",
+   "elitex.gun.famas_f1.name": "프랑스 Famas F1",
+   "elitex.gun.m4_sopmod.name": "M4 Sop Mod 블록 II",
+   "elitex.gun.mcs_spear.name": "시그 MCX Spear",
+
+   "elitex.gun.ray_gun_mk2.name": "레이 건 Mark II",
+   "elitex.gun.wonder_waffle.name": "원더 와플",
+   "elitex.gun.mustang_and_sally.name": "머스탱과 샐리",
+
+   "elitex.gun.benelli_super.name": "베넬리 슈퍼 노바",
+   "elitex.gun.kar98k.name": "카라비너 98k",
+
+   "elitex.ammo.sig_fury_ammo.name": ".227 시그 퓨리",
+   "elitex.ammo.waffe_ammo.name": "원더 와플 탄약",
+   "elitex.ammo.ray_gun_mk2_ammo.name": "레이 건 MkII 탄약",
+   "elitex.ammo.kar98k_ammo.name": "Kar98k 7.92×57mm 마우저 탄약",
+   "elitex.ammo.five_seven_ammo.name": "FS Five Seven 탄약",
+
+   "elitex.gun.ak47x.desc": "상징적인 AK를 발명한 소련에 감사하세요",
+   "elitex.gun.mcs_spear.desc": "고품질 디테일이 로드될 때, PC가 과열될 수 있다는 점을 기억하세요",
+   "elitex.gun.m4_sopmod.desc": "최고, 매우 사용자 정의 가능, 5.56 탄약 사용",
+   "elitex.gun.famas_f1.desc": "아아아, 프랑스!! 빠른 발사 속도로 유명합니다",
+   "elitex.gun.colt_m1911x1.desc": "여전히 가장 상징적인 권총 중 하나, .45 ACP 사용",
+   "elitex.gun.benelli_super.desc": "이탈리아 제조업체, 베넬리 반자동 샷건",
+   "elitex.gun.ray_gun_mk2.desc": "Cod Zombies에서 가져온 놀라운 무기, 무엇을 발견할지 모릅니다",
+   "elitex.gun.mustang_and_sally.desc": "기본적으로 두 개의 M1911로 큰 피해를 줍니다",
+   "elitex.gun.wonder_waffle.desc": "전기 충격을 원하십니까? 붐붐! 물론 가능합니다",
+   "elitex.gun.srz_2011.desc": "2011년 현대화된 권총, 그렇게 비싸지 않습니다",
+   "elitex.gun.jrx.desc": "JRX Industries에 오신 것을 환영합니다. 이것이 가장 비싼 권총입니다",
+   "elitex.gun.kar98k.desc": "현대 역사상 가장 상징적인 소총",
+   "elitex.gun.five_seven.desc": "가벼운 해머리스 권총도 신뢰할 수 있을 때가 있습니다"
+
+
+
+}

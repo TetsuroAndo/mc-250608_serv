@@ -1,0 +1,135 @@
+services:
+  mc:
+    image: itzg/minecraft-server:latest  # Minecraft サーバー用Dockerイメージ
+    container_name: forge-mc  # コンテナ名
+    # DNS設定（接続問題解決用）
+    dns:
+      - 8.8.8.8  # Google DNS
+      - 1.1.1.1  # Cloudflare DNS
+    ports:
+      - "25565:25565/tcp"  # Minecraft メインポート（TCP）
+      - "25565:25565/udp"  # Minecraft メインポート（UDP）
+      - "25575:25575/tcp"  # RCON用ポート
+    environment:
+      # 基本設定
+      EULA: "TRUE"  # Minecraft使用許諾契約への同意
+      TZ: "Asia/Tokyo"  # タイムゾーン（日本時間）
+      TYPE: "FORGE"  # サーバータイプ（MOD対応）
+      VERSION: "1.20.1"  # Minecraftバージョン
+      MEMORY: "16G"  # 使用メモリ容量
+      GUI: "FALSE"  # GUI無効化（Docker環境用）
+
+      # サーバー基本設定
+      MOTD: "My Forge Server"  # サーバーメッセージ
+      MAX_PLAYERS: 32  # 最大プレイヤー数
+      DIFFICULTY: "normal"  # 難易度（peaceful, easy, normal, hard）
+      MODE: "survival"  # ゲームモード（survival, creative, adventure, spectator）
+      PVP: "TRUE"  # PvP有効/無効
+      ALLOW_NETHER: "TRUE"  # ネザー許可
+      ALLOW_FLIGHT: "TRUE"  # フライト許可
+      SPAWN_PROTECTION: 0  # スポーン保護範囲（ブロック数）
+      VIEW_DISTANCE: 12  # 視界距離（チャンク数）
+      SIMULATION_DISTANCE: 12  # シミュレーション距離（チャンク数）
+
+      # ワールド設定
+      LEVEL: "world"  # ワールド名
+      LEVEL_TYPE: "default"  # ワールドタイプ（default, flat, amplified, buffet）
+      SEED: ""  # ワールドシード値（空文字はランダム）
+      GENERATE_STRUCTURES: "TRUE"  # 構造物生成有効/無効
+      FORCE_WORLD_COPY: "FALSE"  # ワールド強制コピー
+
+      # プレイヤー管理
+      # WHITELIST: "heXaAtom,yzen098765"  # ホワイトリスト（カンマ区切り）例: "player1,player2,player3"
+      OPS: "heXaAtom"  # オペレーター設定（カンマ区切り）例: "admin1,admin2"
+      ENABLE_WHITELIST: "FALSE"  # ホワイトリスト機能有効/無効
+      ENFORCE_WHITELIST: "FALSE"  # ホワイトリスト強制適用
+      ONLINE_MODE: "TRUE"  # オンラインモード認証
+
+      # RCON設定（リモート管理用）
+      ENABLE_RCON: "TRUE"  # RCON機能有効化
+      RCON_PASSWORD: "minecraft_rcon_pass"  # RCONパスワード
+      RCON_PORT: 25575  # RCONポート番号
+
+      # ログ設定
+      ENABLE_ROLLING_LOGS: "TRUE"  # ログローテーション有効化
+      LOG4J_CONFIG_FILE: "/data/log4j2.xml"  # ログ設定ファイル
+
+      # パフォーマンス設定
+      USE_AIKAR_FLAGS: "TRUE"  # Aikar's JVMフラグ使用
+      OVERRIDE_SERVER_PROPERTIES: "TRUE"  # server.properties上書き許可
+
+      # 自動化機能（リソース節約）
+      ENABLE_AUTOPAUSE: "TRUE"  # 自動一時停止機能
+      AUTOPAUSE_TIMEOUT_EST: 3600  # 推定プレイヤー離脱後の待機時間（秒）
+      AUTOPAUSE_TIMEOUT_KN: 120  # 確実にプレイヤー不在時の待機時間（秒）
+      AUTOPAUSE_PERIOD: 10  # プレイヤー確認間隔（秒）
+      MAX_TICK_TIME: -1  # サーバーウォッチドッグ無効化（自動一時停止用）
+
+      # ENABLE_AUTOSTOP: "TRUE"  # 完全自動停止（使用時はコメント解除）
+      # AUTOSTOP_TIMEOUT_EST: 3600  # 自動停止タイムアウト（推定）
+      # AUTOSTOP_TIMEOUT_INIT: 1800  # 自動停止タイムアウト（初期）
+
+      # Forge固有設定
+      FORGE_VERSION: "47.4.0"  # 安定版Forgeバージョンを明示指定
+      REMOVE_OLD_MODS: "FALSE"  # 古いMOD自動削除を無効化
+
+      # JVM最適化オプション（G1ガベージコレクター設定）
+      JVM_OPTS: "-XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1"
+
+    volumes:
+      - ./server:/data  # サーバーデータ保存用ディレクトリ
+    restart: unless-stopped  # 自動再起動設定（手動停止以外）
+
+    # リソース制限設定
+    deploy:
+      resources:
+        limits:
+          memory: 20G  # 16G + 4Gのバッファ
+          cpus: '4.0'  # 最大CPU使用量
+        reservations:
+          memory: 16G  # 予約メモリ量
+          cpus: '2.0'  # 予約CPU量
+
+    # ヘルスチェック設定
+    healthcheck:
+      test: ["CMD", "mc-health"]  # ヘルスチェックコマンド
+      interval: 30s  # チェック間隔
+      timeout: 10s  # タイムアウト時間
+      retries: 3  # 再試行回数
+      start_period: 120s  # 初回チェック開始時間
+
+    # ネットワーク設定（複数サービス時に使用）
+    networks:
+      - minecraft-net
+
+# オプション: 管理用Webインターフェース
+  # mc-admin:
+  #   image: itzg/mc-router:latest  # MC Router イメージ
+  #   container_name: mc-router  # ルーター用コンテナ名
+  #   ports:
+  #     - "8080:8080"  # Web管理ポート
+  #   environment:
+  #     API_BINDING: 0.0.0.0:8080  # API バインドアドレス
+  #   networks:
+  #     - minecraft-net
+
+# バックアップサービス（オプション）
+  # mc-backup:
+  #   image: itzg/mc-backup:latest  # バックアップ専用イメージ
+  #   container_name: mc-backup  # バックアップ用コンテナ名
+  #   environment:
+  #     BACKUP_INTERVAL: "2h"  # バックアップ間隔（2時間毎）
+  #     PRUNE_BACKUP_DAYS: 7  # バックアップ保持日数
+  #     RCON_HOST: mc  # RCON接続先ホスト
+  #     RCON_PASSWORD: "minecraft"  # RCON接続パスワード
+  #   volumes:
+  #     - ./server:/data:ro  # サーバーデータ（読み取り専用）
+  #     - ./backups:/backups  # バックアップ保存先
+  #   depends_on:
+  #     - mc  # メインサーバーに依存
+  #   networks:
+  #     - minecraft-net
+
+networks:
+  minecraft-net:  # カスタムネットワーク名
+    driver: bridge  # ブリッジネットワークドライバー

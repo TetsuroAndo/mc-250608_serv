@@ -1,0 +1,44 @@
+{
+  "pack.elitex.name": "Элитные И Качественные Оружия", 
+  "pack.elitex.desc": "Самые Продвинутые И Лучшие Оружия,которые вы не найдете нигде", 
+
+  "elitex.gun.colt_m1911x1.name": "Кольт M1911A1",
+  "elitex.gun.srz_2011.name": "SRZ Модернизированный 2011",
+  "elitex.gun.jrx.name": "JRX Viper 2011",
+  "elitex.gun.five_seven.name": "FS Five Seven",
+
+  "elitex.gun.ak47x.name": "Автомат Калашникова 47", 
+  "elitex.gun.famas_f1.name": "Французский Фамас Ф1",
+  "elitex.gun.m4_sopmod.name": "M4 Sop Mod Block II",
+  "elitex.gun.mcs_spear.name": "SIG MCX Spear",
+
+  "elitex.gun.ray_gun_mk2.name": "Ray Gun Mark II",
+  "elitex.gun.wonder_waffle.name": "Вундерваффе",
+  "elitex.gun.mustang_and_sally.name": "Мустанг и Салли",
+
+  "elitex.gun.benelli_super.name": "Benelli SuperNova",
+
+  "elitex.gun.kar98k.name" : "Kar98k",
+
+  "elitex.ammo.sig_fury_ammo.name" : "Патроны для .227 Sig Fury",
+  "elitex.ammo.waffe_ammo.name" : "Патроны для Вундерваффе ",
+  "elitex.ammo.ray_gun_mk2_ammo.name" : "Патроны для Ray Gun mkII's ",
+  "elitex.ammo.kar98k_ammo.name" : "Патроны для Kar98k's 7.92×57mm Mauser",
+  "elitex.ammo.five_seven_ammo.name" : "Патроны для FS Five Seven's 5.7×28mm",
+
+  "elitex.gun.ak47x.desc" : "Передай привет советскому союзу,товарищь",
+  "elitex.gun.mcs_spear.desc" : "Если загрузиться качественная детализация,ТВОЙ ПК СГОРИТ К ЧЕРТЯМ СОБАЧИМ",
+  "elitex.gun.m4_sopmod.desc" : "Лучшее,Супер Кастомизированный,использует 5.56",
+  "elitex.gun.famas_f1.desc" : "АаГГхХ,ФРЕНЧ!!!!! в основном славится своей скорострельностью и точностью ",
+  "elitex.gun.colt_m1911x1.desc" : "По прежнему самый культовый пистолет,который использует 45acp",
+  "elitex.gun.benelli_super.desc" : "Итальянский Продукт,Benelli SuperNova Полу-Автоматический Дробовик",
+  "elitex.gun.ray_gun_mk2.desc" : "Кое-что удивительное из Call Of Duty Zombies,вы никогда не узнаете,что можно в нем найти",
+  "elitex.gun.mustang_and_sally.desc" : "Два M1911s- одного зовут Мстанг,а другого Салли.",
+  "elitex.gun.wonder_waffle.desc" : "Хочешь чтобы тебя ударило током? Бум-бум? Конечно!",
+  "elitex.gun.srz_2011.desc" : "Буквально модифицированный SRZ 2011 года,не доступен для того,чтобы быть дорогим пистолетом",
+  "elitex.gun.jrx.desc" : "Добро пожаловать в JRX Industries,теперь это самый дорогой пистолет",
+  "elitex.gun.kar98k.desc" : "Самая легендарная винтовка в современной истории",
+  "elitex.gun.five_seven.desc" : "Иногда даже легкий уникальный пистолет без молотка оказывается надежным"
+
+
+}

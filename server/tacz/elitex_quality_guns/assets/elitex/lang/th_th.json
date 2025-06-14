@@ -1,0 +1,41 @@
+{
+  "pack.elitex.name": "Elite X อาวุธคุณภาพสูง",
+  "pack.elitex.desc": "อาวุธที่ล้ำสมัยและดีที่สุดที่คุณจะไม่พบที่ไหนอีก",
+
+  "elitex.gun.colt_m1911x1.name": "Colt M1911A1",
+  "elitex.gun.srz_2011.name": "SRZ 2011 ที่ทันสมัย",
+  "elitex.gun.jrx.name": "JRX Viper 2011",
+  "elitex.gun.five_seven.name": "FS Five Seven",
+
+  "elitex.gun.ak47x.name": "AK47",
+  "elitex.gun.famas_f1.name": "Famas F1 จากฝรั่งเศส",
+  "elitex.gun.m4_sopmod.name": "M4 Sop Mod บล็อก II",
+  "elitex.gun.mcs_spear.name": "Sig MCX Spear",
+
+  "elitex.gun.ray_gun_mk2.name": "Ray Gun Mark II",
+  "elitex.gun.wonder_waffle.name": "Wonder Waffe",
+  "elitex.gun.mustang_and_sally.name": "Mustang และ Sally",
+
+  "elitex.gun.benelli_super.name": "Benelli Super Nova",
+  "elitex.gun.kar98k.name": "Karabiner 98k",
+
+  "elitex.ammo.sig_fury_ammo.name": ".227 Sig Fury",
+  "elitex.ammo.waffe_ammo.name": "กระสุน Wonder Waffe",
+  "elitex.ammo.ray_gun_mk2_ammo.name": "กระสุน Ray Gun MkII",
+  "elitex.ammo.kar98k_ammo.name": "กระสุน Kar98k 7.92×57mm Mauser",
+  "elitex.ammo.five_seven_ammo.name": "กระสุน FS Five Seven",
+
+  "elitex.gun.ak47x.desc": "ขอบคุณสหภาพโซเวียตที่คิดค้น AK ที่เป็นสัญลักษณ์",
+  "elitex.gun.mcs_spear.desc": "เมื่อคุณภาพสูงถูกโหลด โปรดจำไว้ว่าคอมพิวเตอร์ของคุณอาจร้อนเกินไป",
+  "elitex.gun.m4_sopmod.desc": "ดีที่สุด ปรับแต่งได้มาก ใช้กระสุน 5.56",
+  "elitex.gun.famas_f1.desc": "AHHHGH ฝรั่งเศส!!11 มีชื่อเสียงจากอัตราการยิงที่เร็ว",
+  "elitex.gun.colt_m1911x1.desc": "ยังคงเป็นหนึ่งในปืนที่มีชื่อเสียงที่สุด ใช้ .45 ACP",
+  "elitex.gun.benelli_super.desc": "ผู้ผลิตอิตาลี, ปืนลูกซองอัตโนมัติ Benelli",
+  "elitex.gun.ray_gun_mk2.desc": "สิ่งที่น่าทึ่งจาก Cod Zombies คุณจะไม่มีวันรู้ว่าคุณจะพบอะไร",
+  "elitex.gun.mustang_and_sally.desc": "จริงๆ แล้วสอง M1911 ที่จะทำความเสียหายมาก",
+  "elitex.gun.wonder_waffle.desc": "อยากถูกไฟฟ้าช็อตไหม? Boom boom? แน่นอน",
+  "elitex.gun.srz_2011.desc": "ปืน 2011 ที่ทันสมัยไม่แพง",
+  "elitex.gun.jrx.desc": "ยินดีต้อนรับสู่ JRX Industries นี่คือปืนที่แพงที่สุด",
+  "elitex.gun.kar98k.desc": "ปืนไรเฟิลที่มีชื่อเสียงที่สุดในประวัติศาสตร์ยุคใหม่",
+  "elitex.gun.five_seven.desc": "บางครั้งปืนที่เบาและไม่มีค้อนก็สามารถเชื่อถือได้"
+}

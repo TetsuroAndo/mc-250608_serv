@@ -1,0 +1,56 @@
+{
+   "pack.elitex.name": "Elite X Quality Guns",
+   "pack.elitex.desc": "The Most Advanced and Better Weapons you wont find them anywhere",
+
+  "elitex.gun.colt_m1911x1.name": "Colt M1911A1",
+  "elitex.gun.srz_2011.name": "SRZ Modernized 2011",
+  "elitex.gun.jrx.name": "JRX Viper 2011",
+  "elitex.gun.five_seven.name": "FS Five Seven",
+
+  "elitex.gun.ak47x.name": "AK47",
+  "elitex.gun.akx105.name": "Akx105",
+  "elitex.gun.famas_f1.name": "French Famas F1",
+  "elitex.gun.m4_sopmod.name": "M4 Sop Mod Block II",
+  "elitex.gun.mcs_spear.name": "Sig MCX Spear",
+
+  "elitex.gun.ray_gun_mk2.name": "Ray Gun Mark II",
+  "elitex.gun.wonder_waffle.name": "Wonder Waffe",
+  "elitex.gun.mustang_and_sally.name": "Mustang and Sally",
+  "elitex.gun.origin_electric_staff.name": "Origins Electric Staff",
+  "elitex.gun.origin_ice_staff.name": "Origins Ice Staff",
+  "elitex.gun.origin_wind_staff.name": "Origins Wind Staff",
+  "elitex.gun.origin_fire_staff.name": "Origins Fire Staff",
+
+  "elitex.gun.benelli_super.name": "Benelli Super nova",
+
+  "elitex.gun.kar98k.name" : "Karabiner 98k",
+
+  "elitex.ammo.sig_fury_ammo.name" : ".227 Sig Fury",
+  "elitex.ammo.waffe_ammo.name" : "Wonder Waffe Ammo",
+  "elitex.ammo.ray_gun_mk2_ammo.name" : "Ray Gun mkII's Ammo",
+  "elitex.ammo.kar98k_ammo.name" : "Kar98k's 7.92×57mm Mauser",
+  "elitex.ammo.five_seven_ammo.name" : "FS Five Seven's Ammo",
+  "elitex.ammo.origin_electric_staff_ammo.name" : "Electric Staff's Ammo",
+  "elitex.ammo.origin_ice_staff_ammo.name" : "Ice Staff's Ammo",
+  "elitex.ammo.origin_wind_staff_ammo.name" : "Wind Staff's Ammo",
+  "elitex.ammo.origin_fire_staff_ammo.name" : "Fire Staff's Ammo",
+
+  "elitex.gun.ak47x.desc" : "Say hello to Soviet Russia for inventing the iconic AKs",
+  "elitex.gun.akx105.desc" : "Something tells me that this IS actually an Fully Customizable Russian AK-105 ",
+  "elitex.gun.mcs_spear.desc" : "When quality detailed is loaded, remember your PC got fried",
+  "elitex.gun.m4_sopmod.desc" : "Best , Super Customizable , uses 5.56",
+  "elitex.gun.famas_f1.desc" : "AHHHGH , French!!11 , basically famous for its fast fire rate",
+  "elitex.gun.colt_m1911x1.desc" : "Still one of the most iconic pistols uses 45acp",
+  "elitex.gun.benelli_super.desc" : "Italian Manufacturer , Benelli Semi auto Shotgun",
+  "elitex.gun.ray_gun_mk2.desc" : "Something , Amazing from Cod zombies , you will never know what to find out",
+  "elitex.gun.mustang_and_sally.desc" : "Basically dual M1911s gonna cause damage",
+  "elitex.gun.wonder_waffle.desc" : "Wanna get Electrocuted?  sure thing",
+  "elitex.gun.srz_2011.desc" : "Literally Modernized 2011 Not Closed to being a  expensive Pistol",
+  "elitex.gun.jrx.desc" : "Welcome to JRX Industries , now this is Most expensive pistol",
+  "elitex.gun.kar98k.desc" : "Most iconic Rifle in Modern History",
+  "elitex.gun.five_seven.desc" : "Sometimes even a Lightweight unique hammer less pistol comes reliable",
+  "elitex.gun.origin_electric_staff.desc" : "Electrical Staff from Black Ops Zombies Get Ready for Electrical burst!!! ",
+  "elitex.gun.origin_ice_staff.desc" : "Get ready to be Freazed from this Ice Staff!! ",
+  "elitex.gun.origin_fire_staff.desc" : "Not Fire Resistance , YOURE FIRED!! ",
+  "elitex.gun.origin_wind_staff.desc" : "This is gonna blow you the hell out  "
+}
