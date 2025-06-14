@@ -99,19 +99,29 @@ def backup_world() -> None:
         print("[git] staging changes …")
         _run(["git", "add", "-A"], cwd=GIT_REPO_PATH)
 
-        # 変更が無い場合は commit しない
-        diff_ret = subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=GIT_REPO_PATH)
+        # 差分が無いなら何もしない
+        diff_ret = subprocess.run(
+            ["git", "diff", "--cached", "--quiet"],
+            cwd=GIT_REPO_PATH,
+            text=True
+        )
         if diff_ret.returncode == 0:
-            print("[git] no changes; skipping commit")
+            print("[git] no changes; skipping backup")
             return
 
+        # 差分あり → ブランチを切る
+        branch_name = f"world_backup_{timestamp}"
+        print(f"[git] creating and switching to branch '{branch_name}' …")
+        _run(["git", "checkout", "-B", branch_name], cwd=GIT_REPO_PATH)
+
+        # コミット
         msg = COMMIT_MESSAGE_TEMPLATE.format(timestamp=timestamp)
         _run(["git", "commit", "-m", msg], cwd=GIT_REPO_PATH)
         print(f"[git] committed: '{msg}'")
 
-        # リモートへプッシュ（現在のブランチ設定に従う）
-        print("[git] pushing to remote…")
-        _run(["git", "push"], cwd=GIT_REPO_PATH)
+        # プッシュ
+        print(f"[git] pushing branch '{branch_name}' to origin…")
+        _run(["git", "push", "-u", "origin", branch_name], cwd=GIT_REPO_PATH)
         print("[git] push complete")
 
         # クリーンアップ：バックアップフォルダを削除
