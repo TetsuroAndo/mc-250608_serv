@@ -18,10 +18,7 @@ Usage:
 """
 from __future__ import annotations
 
-import os
-import shutil
-import subprocess
-import sys
+import shutil, subprocess, sys
 from datetime import datetime
 from pathlib import Path
 from typing import List
@@ -93,7 +90,7 @@ def backup_world() -> None:
             _run(["git", "init", str(GIT_REPO_PATH)])
 
         # rsync substitute: sync tmp_dir → repo/world_data/world (同じ階層に置く例)
-        target_dir = GIT_REPO_PATH / "world_backup"
+        target_dir = GIT_REPO_PATH / "world_data" / "world_backup"
         if target_dir.exists():
             shutil.rmtree(target_dir)
         shutil.move(tmp_dir, target_dir)
@@ -111,8 +108,16 @@ def backup_world() -> None:
         _run(["git", "commit", "-m", msg], cwd=GIT_REPO_PATH)
         print(f"[git] committed: '{msg}'")
 
-        # プッシュを行いたい場合は origin を設定し、以下を解除
-        # _run(["git", "push", "origin", "main"], cwd=GIT_REPO_PATH)
+        # リモート (origin main) にプッシュ
+        print("[git] pushing to origin/main …")
+        _run(["git", "push", "origin", "main"], cwd=GIT_REPO_PATH)
+        print("[git] push complete")
+
+        # バックアップフォルダを削除
+        if target_dir.exists():
+            print(f"[cleanup] removing backup dir {target_dir} …")
+            shutil.rmtree(target_dir)
+            print("[cleanup] done")
     finally:
         if tmp_dir.exists():
             shutil.rmtree(tmp_dir, ignore_errors=True)
