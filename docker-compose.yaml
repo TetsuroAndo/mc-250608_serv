@@ -78,6 +78,7 @@ services:
 
     volumes:
       - ./server:/data  # サーバーデータ保存用ディレクトリ
+      - ./world_data/world:/data/world
     restart: unless-stopped  # 自動再起動設定（手動停止以外）
 
     # リソース制限設定
